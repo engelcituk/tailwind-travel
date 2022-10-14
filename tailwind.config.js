@@ -24,7 +24,7 @@ module.exports = {
 			  'miami': "url('../img/miami.jpg')",
 			  'switzerland': "url('../img/switzerland.jpg')",
 			  'bali': "url('../img/bali.jpg')",
-			  'norway': "url('../img/norway.jpg')",
+			  'norway': "url('../img/norway.jpeg')",
 			  'chicago': "url('../img/chicago.jpg')",
 			  'europe': "url('../img/europe.jpg')",
 			  'iceland': "url('../img/iceland.jpg')",

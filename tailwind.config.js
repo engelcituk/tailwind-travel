@@ -18,7 +18,7 @@ module.exports = {
 			  'yosemite': "url('../img/yosemite.jpg')",
 			  'LA': "url('../img/LA.jpg')",
 			  'seattle': "url('../img/seattle.jpg')",
-			  'new_york': "url('../img/new_york.jpg')",
+			  'new_york': "url('../img/new_york.jpeg')",
 			  'norway': "url('../img/norway.jpg')",
 			  'sydney': "url('../img/sydney.jpg')",
 			  'miami': "url('../img/miami.jpg')",
@@ -35,5 +35,6 @@ module.exports = {
     require('@tailwindcss/forms'),
     require('@tailwindcss/typography'),
     require('@tailwindcss/aspect-ratio'),
+    require('tailwind-scrollbar-hide'),
   ],
 };

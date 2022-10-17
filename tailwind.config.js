@@ -1,6 +1,7 @@
 const colors = require('tailwindcss/colors')
 module.exports = {
   content: ["./public/index.html", "./src/**/*.{html,js}"],
+  darkMode: 'class',
   theme: {
     colors: {
       ...colors,
@@ -13,12 +14,12 @@ module.exports = {
     },
     extend: {
       backgroundImage:{
+			  'norway': "url('../img/norway.jpeg')",
+			  'new_york': "url('../img/new_york.jpeg')",
         'sanFrancisco': "url('../img/sanFrancisco.jpeg')",
 			  'sanFranciscoDesktop': "url('../img/sanFranciscoDesktop.jpeg')",
 			  'yosemite': "url('../img/yosemite.jpeg')",
 			  'seattle': "url('../img/seattle.jpeg')",
-			  'new_york': "url('../img/new_york.jpeg')",
-			  'norway': "url('../img/norway.jpeg')",
 			  'sydney': "url('../img/sydney.jpeg')",
 			  'miami': "url('../img/miami.jpeg')",
 			  'switzerland': "url('../img/switzerland.jpeg')",
